@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="bg_app-4b10c1" version="0.0.0">
+ <names>
+  <name lang="en_US">BG_app</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>fi_FI</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>fi_FI</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>
