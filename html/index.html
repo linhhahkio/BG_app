@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale = 1.333,minimum-scale = 1.333,maximum-scale = 1.333" />
+        <title>Question Page</title>
+
+        <!-- CSS -->
+        <style>
+
+    body {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         margin-right: -50%;
+         transform: translate(-50%, -50%);
+         margin:auto;
+    }
+		div.gallery {
+			width: 200px;
+    			height: auto;
+			border: 0px solid #ccc;
+		}
+
+		div.gallery:hover {
+    			opacity: 0.7;
+		}
+
+		div.gallery img {
+    			width: 200px;
+    			height: 200px;
+				max-height: 200px;
+				border-radius: 50%;
+		}
+
+	    div.name {text-align: center;
+	    font-size: 25px;}
+
+		div.desc {
+		    text-align: center;
+ 		    word-wrap: break-word;
+        	    font-weight: bold;
+		}
+
+		* {
+		    box-sizing: border-box;
+		}
+
+		.responsive {
+		    padding: 0 6px;
+		    float: left;
+		    width: 50%;
+		}
+
+		@media only screen and (max-width: 700px) {
+		    .responsive {
+			width: 49.99999%;
+			margin: 6px 0;
+		    }
+		}
+
+		@media only screen and (max-width: 500px) {
+		    .responsive {
+			width: 100%;
+		    }
+		}
+
+		/* Stick back button to end of page*/
+		.button {
+		    position: absolute;
+		    bottom: 10px;
+		    right:0;
+		    width: 100px;
+		    height: 100px;
+
+		}
+
+        </style>
+
+        <script src="/libs/qimessaging/2/qimessaging.js"></script>
+        <script src="script.js"></script>
+    	</head>
+
+    <body>
+    </body>
+</html>
