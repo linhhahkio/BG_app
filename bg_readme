@@ -1,0 +1,9 @@
+This is the background application which continually check users' emails and notify users when they have news mails by showing the information with their picture on the tablet. 
+Program's flow:
+
+1. "Get Users Info" box fetches the data related to email of registed user in the database.
+2. The data is given to "Check mail" box to check each mail box for new emails. The box output returns the list of users and their new emails.
+3. "Show" box shows the users' picture which have new mails stored and the number of new mails they received.
+4. Then "Wait" box makes the program waits for 1 minute before starting "Check mail" box again
+
+
